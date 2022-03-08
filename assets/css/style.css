@@ -1,0 +1,154 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    color: #282828;
+}
+.Nav ul {
+    border: solid 2px #282828;
+    display:flex;
+    flex-wrap:wrap;
+    list-style:none;
+    justify-content: center;
+    background-color: #00564D;
+}
+.Nav ul li {
+    margin: 15px 30px;
+}
+.Nav ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+#MyBio :hover {
+    background-color: #00897B;
+    border-radius: 14px;
+}
+#MyWorks :hover {
+    background-color: #00897B;
+    border-radius: 14px;
+}
+#MyContactInfo :hover {
+    background-color: #00897B;
+    border-radius: 14px;
+}
+.Bio {
+    border: solid 2px #282828;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(City-Wallpaper.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.BioContent {
+    background: rgb(54, 54, 54, 0.4);
+    border: solid 2px #474A48;
+    border-radius: 14px;
+    margin: 15px 5% 15px 100px;
+    width: 50%;
+    height: 70%;
+    text-align: justify;
+}
+.BioContent div strong {
+    margin: 10px;
+    font-size: 25px;
+}
+.BioStrong {
+    text-align: center;
+    margin: 10px;
+    border-bottom: #474A48 2px solid;
+}
+.BioContent p {
+    margin: 10px;
+}
+.PortraitContainer {
+    margin: 17px 0px;
+    width: 0%;
+    height: 70%;
+}
+.ProfessionalPortrait  {
+    height: 100%;
+    width: auto;
+    border-radius: 14px;
+    border: solid 2px #474A48;
+}
+.Works {
+    border: solid 2px #282828;
+    text-align: center;
+    background-color: #969696;
+}
+.Works h2 {
+    margin: 10px;
+}
+.WorksContent {
+    margin: 10px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ContentLeft {
+    width: 49%;
+    float:left;
+}
+.ContentLeft p {
+    margin: 10px;
+}
+.worksSection {
+    width: 49%;
+}
+.works {
+    margin: 0px;
+    padding: 4px;
+    width: fit-content;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    float: right;
+}
+#Runbuddy {
+    width: 100%;
+    height: auto;
+    border: 4px solid #474A48;
+    border-radius: 8px;
+}
+#RunbuddyHover :hover {
+    border: 4px solid #00897B;
+}
+#Passwordgenerator {
+    width: 100%;
+    height: auto;
+    border: 4px solid #474A48;
+    border-radius: 8px;
+}
+#PasswordgeneratorHover :hover {
+    border: 4px solid #00897B;
+}
+#Chariotfitness {
+    width: 100%;
+    height: auto;
+    border: 4px solid #474A48;
+    border-radius: 8px;
+}
+#ChariotfitnessHover :hover {
+    border: 4px solid #00897B;
+}
+.ContactInfo {
+    border: solid 2px #282828;
+    text-align: center;
+    background-color: #969696;
+}
+.ContactInfo h2 {
+    margin: 10px;
+}
+.ContactInfoContent {
+    margin: 10px;
+    text-align: center;
+}
+.FooterBottom {
+    border: solid 2px #282828;
+    text-align: center;
+    background-color: #00564D;
+    height: 45px;
+}
